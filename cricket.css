@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(217, 241, 150);
+    border-style: solid;
+
+    
+}
+Caption{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: white;
+    
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+   padding: 20px;
+}
+
+.match-details {
+    background-color: rgb(95, 188, 18);
+    border-radius: 8px;
+
+}
+
+
+
+.player-names {
+    background-color: rgb(245, 174, 8);
+    border-radius: 8px;
+}
+
+table {
+    
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+table,tr,td,th {
+   
+    border: solid;
+    border-color: rgb(59, 9, 36);
+    padding: 8px;
+}
+
+
+th{
+    background-color: blanchedalmond;
+}
+
+table caption {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.upcoming {
+    background-color: rgb(1, 185, 105);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 90px
+  
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    margin-top: 120px;
+}
+
+ul{
+    list-style: square;
+}
